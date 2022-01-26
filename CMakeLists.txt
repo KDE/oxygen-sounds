@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2021 Benjamin Port <benjamin.port@enioka.com>
+# SPDX-License-Identifier: BSD-2-Clause
+
 cmake_minimum_required(VERSION 3.16)
 
 project(oxygen-sounds)
