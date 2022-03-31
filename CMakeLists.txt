@@ -18,7 +18,7 @@ set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} )
 include(KDEInstallDirs)
 include(KDECMakeSettings)
 
-FILE(GLOB _oggfile "sounds/*.ogg" )
+file(GLOB _oggfile CONFIGURE_DEPENDS "sounds/*.ogg" )
 install(FILES ${_oggfile}
 	DESTINATION  ${KDE_INSTALL_SOUNDDIR} )
 
