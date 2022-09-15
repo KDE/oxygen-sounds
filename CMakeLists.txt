@@ -10,7 +10,7 @@ set(PROJECT_VERSION_MAJOR 5)
 include(FeatureSummary)
 
 ################# Qt/KDE #################
-set(KF5_MIN_VERSION "5.94")
+set(KF5_MIN_VERSION "5.98.0")
 
 find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} )
