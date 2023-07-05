@@ -1,0 +1,8 @@
+[Sound Theme]
+Name=Oxygen
+Comment="Oxygen Sound Theme for KDE Plasma"
+Directories=stereo
+Example=theme-demo
+
+[stereo]
+OutputProfile=stereo

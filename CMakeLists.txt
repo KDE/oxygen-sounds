@@ -19,7 +19,8 @@ include(KDEInstallDirs)
 include(KDECMakeSettings)
 
 file(GLOB _oggfile CONFIGURE_DEPENDS "sounds/*.ogg" )
-install(FILES ${_oggfile}
-	DESTINATION  ${KDE_INSTALL_SOUNDDIR} )
+install(FILES ${_oggfile} DESTINATION ${KDE_INSTALL_SOUNDDIR})
+
+install(DIRECTORY "sounds/oxygen" DESTINATION ${KDE_INSTALL_SOUNDDIR})
 
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
