@@ -16,6 +16,7 @@ Name[sl]=Oxygen
 Name[tr]=Oksijen
 Name[uk]=Oxygen
 Name[x-test]=xxOxygenxx
+Name[zh_CN]=Oxygen 轻氧
 Comment="Oxygen Sound Theme for KDE Plasma"
 Comment[ar]="سمة أوكسجين الصوتية لبلازما كيدي"
 Comment[ca]=Tema de so Oxygen per al Plasma de KDE
@@ -32,6 +33,7 @@ Comment[sl]="Oxygen zvočna tema za KDE Plasma"
 Comment[tr]="KDE Plasma için Oksijen Ses Teması"
 Comment[uk]="Звукова тема Oxygen для Плазми KDE"
 Comment[x-test]=xx"Oxygen Sound Theme for KDE Plasma"xx
+Comment[zh_CN]=“KDE Plasma 的 Oxygen 轻氧声音主题”
 Directories=stereo
 Example=theme-demo
 
