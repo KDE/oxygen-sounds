@@ -9,9 +9,9 @@ set(PROJECT_VERSION "6.7.80")
 include(FeatureSummary)
 
 ################# Qt/KDE #################
-set(KF5_MIN_VERSION "5.102.0")
+set(KF6_MIN_VERSION "6.0.0")
 
-find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
+find_package(ECM ${KF6_MIN_VERSION} REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} )
 
 include(KDEInstallDirs)
