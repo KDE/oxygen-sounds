@@ -4,7 +4,7 @@
 cmake_minimum_required(VERSION 3.16)
 
 project(oxygen-sounds)
-set(PROJECT_VERSION "6.7.90")
+set(PROJECT_VERSION "6.7.91")
 
 include(FeatureSummary)
 
